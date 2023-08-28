@@ -1,3 +1,7 @@
+
+https://github.com/clement89/RandomColors/assets/11992113/a198af8e-5abf-4ff3-a314-ec759af1faae
+
+
 # Random Colors App
 
 The Random Colors App is a Flutter application that demonstrates the use of the BLoC architecture pattern along with widget testing for creating dynamic and interactive user interfaces.
