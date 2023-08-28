@@ -18,7 +18,7 @@ class RandomColorBloc extends Bloc<RandomColorEvent, RandomColorState> {
   ) async {
     try {
       emit(state.copyWith(
-        activeColor: _getRandomColor(),
+        activeColor: _getRandomColor().withOpacity(0.6),
       ));
     } catch (error) {
       emit(state.copyWith(
