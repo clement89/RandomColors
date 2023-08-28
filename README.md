@@ -1,16 +1,44 @@
-# random_colors
+# Random Colors App
 
-A new Flutter project.
+The Random Colors App is a Flutter application that demonstrates the use of the BLoC architecture pattern along with widget testing for creating dynamic and interactive user interfaces.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+The Random Colors App showcases how to manage and update the color of a widget through user interaction using the BLoC pattern. The application consists of two main components: the **RandomColorBloc** responsible for managing the state of color changes, and the **RandomColorView** that displays a colored container and updates its color on tap.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Utilizes the BLoC architecture pattern for managing state and business logic.
+- Implements widget tests using the `flutter_test` and `bloc_test` packages for testing the app's UI and functionality.
+- Demonstrates how to integrate the **RandomColorBloc** with the **RandomColorView** to provide a dynamic color-changing user experience.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+
+1. Clone the repository to your local machine:
+
+   git clone https://github.com/clement89/RandomColors.git
+   ```
+
+2. Install the project dependencies:
+
+   ```
+   flutter pub get
+   ```
+
+3. Run the app on a connected device or emulator:
+
+   ```
+   flutter run
+   ```
+
+## Testing
+
+To run widget tests, navigate to the project directory and use the following command:
+
+```
+flutter test test/
+```
+## Acknowledgements
+
+The Random Colors App was inspired by the need to showcase practical implementation of the BLoC architecture pattern in Flutter applications.
+
